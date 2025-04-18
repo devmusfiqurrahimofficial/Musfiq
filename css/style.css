@@ -7,3 +7,8 @@ body{
 .font-fa{
     font-family:  "Playfair Display", serif;
 }
+.bg{
+    background-image: url(../image/composition-of-glowing-abstract-blend-circle-vector-23577469-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;}

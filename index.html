@@ -20,7 +20,7 @@
   <body >
     <!-- navbar start -->
     <section class="nav-section ">
-        <div class="navbar bg-base-100 shadow-sm px-9 bg-red-50 shadow-none">
+        <div class="navbar bg-base-100  px-9 bg-gray-100/70 shadow-none">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -56,32 +56,49 @@
 
     <!--Section-1 start(intro)-->
    <section class="Intro-section">
-    <div class="flex bg-red-50 items-center justify-center px-15">
-        <div class="flex-1 flex justify-start items-start">
-            <div class="mr-10">
-                <div><i class="fa-brands fa-linkedin-in text-2xl font-light text-blue-950 hover:text-rose-500"></i></div>
-                <div><i class="fa-brands fa-instagram text-2xl mt-6 text-blue-950 hover:text-rose-500"></i></div>
-                <div><i class="fa-solid fa-envelope text-2xl mt-6 text-blue-950 hover:text-rose-500"></i></div>
-                <div><i class="fa-brands fa-behance text-2xl mt-6 text-blue-950 hover:text-rose-500"></i></div>
+    <div class="flex flex-col lg:flex-row bg-gray-100/70 items-center justify-center px-2 sm:px-15 pt-15">
+        <div class="flex-1 flex flex-col-reverse  justify-start items-start">
+            <div class="mr-10 flex flex-row justify-center  items-center">
+                <div><i class="fa-brands fa-linkedin-in mt-6 text-2xl font-light text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                <div><i class="fa-brands fa-instagram text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                <div><i class="fa-solid fa-envelope text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                <div><i class="fa-brands fa-behance text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
             </div>
-            <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-6xl/20" >I'm Web Devoloper <br> Musfiqur Rahim</h1>
+            <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm Web Devoloper <br> Musfiqur Rahim</h1>
             <p class="mt-7 text-gray-800">A web developer designs and builds websites and web applications, ensuring they are visually appealing, functional, and user-friendly. They work with programming languages like HTML, CSS, and JavaScript to bring digital ideas to life.</p>
-            <a class="btn bg-rose-500 text-white px-7 py-5 mt-8">Learn more</a>
+            <a class="btn bg-rose-500 text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
             
             </div>
         </div>
-        <div class="flex-1 flex justify-center">
-            <img src="./image/WhatsApp_Image_2025-04-18_at_20,23,32_b79ffd3c-removebg-preview-Picsart-AiImageEnhancer.png" class="img-fluid w-sm" alt="">
+        <div class="flex-1 flex justify-center bg">
+            <img src="./image/musfiq.png" class="img-fluid w-sm" alt="">
         </div>
     </div>
    </section>
     <!--Section-1 end(intro)-->
+    <!-- section-2 start(about) -->
+<section class="about-section mt-40">
+  <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">About Me</h1>
 
+  <p class="text-center mt-5">I'm a web developer passionate about creating clean, user-friendly websites.</p>
+  <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
 
-   <script>
- // tailwind.config.js
-
-
-   </script>
+  <div class="flex flex-col lg:flex-row justify-center items-center mx-25 mt-15">
+    <div class="flex-2 mt-10 mx-3">
+        <h2 class="text-3xl font-fa text-blue-950 font-semibold mb-5">Devoloping With a Passion While Exploring the world</h2>
+        <div class="w-20 h-1 bg-black bg-rose-500 mb-4" bg></div>
+        <p>Hi, I'm Musfiqur Rahim, a passionate and motivated web developer. I have hands-on experience with HTML, CSS, Bootstrap, GitHub, and Tailwind CSS. I enjoy building responsive and user-friendly websites that blend clean design with solid functionality. </p>
+        <a class="btn bg-rose-500 text-white px-7 py-5 mt-8">Contact Me</a>
+    </div>
+    <div class="flex-2 mt-10 mx-3">
+        <p>I'm constantly learning and exploring new tools to improve my development skills. My goal is to grow as a developer and contribute to impactful projects.</p>
+    </div>
+    <div class="flex-1 mt-10 mx-3">
+        <img src="./image/code.jpg" class="w-2xs h-auto">
+    </div>
+  </div>
+</section>
+<!--  section-2 (about)end -->
+   
   </body>
 </html>
