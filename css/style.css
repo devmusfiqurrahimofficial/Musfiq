@@ -1,3 +1,5 @@
+
+
 body{
     max-width: 1500px;
     margin-right: auto;
@@ -17,9 +19,10 @@ body{
     width: 330px;
     height:450px;
     }
-
-
-
+.skills{
+    width: 100px;
+    height: auto;
+}
 
 
 

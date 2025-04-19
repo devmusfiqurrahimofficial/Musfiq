@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- tailwind  css -->
+    <!-- tailwend -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -17,140 +17,166 @@
     <!-- custom css -->
      <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body >
-    <!-- navbar start -->
-    <section class="nav-section ">
-        <div class="navbar bg-base-100  px-9 bg-gray-100/70 shadow-none">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+    <body >
+      <!-- navbar start -->
+      <section class="nav-section ">
+          <div class="navbar bg-base-100  px-9 bg-gray-100/70 shadow-none">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a href="index.html"  class="text-lg">Home</a></li>
+                  <li><a class="text-lg">About</a></li>
+                  <li><a class="text-lg">Portfolio</a></li>
+                
+                  <li><a class="text-lg">Contact</a></li>
+                  </ul>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                  <li><a href="index.html"  class="text-lg">Home</a></li>
-                <li><a class="text-lg">About</a></li>
-                <li><a class="text-lg">Portfolio</a></li>
-               
-                <li><a class="text-lg">Contact</a></li>
+                <a class="btn btn-ghost text-2xl font-bold text-rose-500 font-fa">Musfiq</a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a href="index.html" class="text-lg">Home</a></li>
+                  <li><a  class="text-lg">About</a></li>
+                  <li><a class="text-lg">Portfolio</a></li>
+                
+                  <li><a class="text-lg">Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-2xl font-bold text-rose-500 font-fa">Musfiq</a>
+              <div class="navbar-end">
+                <a class="btn bg-rose-500  text-white px-7 py-5">Hire Me</a>
+              </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a href="index.html" class="text-lg">Home</a></li>
-                <li><a  class="text-lg">About</a></li>
-                <li><a class="text-lg">Portfolio</a></li>
-               
-                <li><a class="text-lg">Contact</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn bg-rose-500  text-white px-7 py-5">Hire Me</a>
-            </div>
+      </section>
+      <!-- navbar end -->
+
+      <!--Section-1 start(intro)-->
+    <section class="Intro-section">
+      <div class="flex flex-col lg:flex-row bg-gray-100/70 items-center justify-center px-2 sm:px-15 pt-15">
+          <div class="flex-1 flex flex-col-reverse lg:flex-row justify-start items-start">
+              <div class="mr-10 flex flex-row lg:flex-col justify-center  items-center">
+                  <div><i class="fa-brands fa-linkedin-in mt-6 text-2xl font-light text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                  <div><i class="fa-brands fa-instagram text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                  <div><i class="fa-solid fa-envelope text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+                  <div><i class="fa-brands fa-behance text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+              </div>
+              <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm Web Devoloper <br> Musfiqur Rahim</h1>
+              <p class="mt-7 text-gray-800">A web developer designs and builds websites and web applications, ensuring they are visually appealing, functional, and user-friendly. They work with programming languages like HTML, CSS, and JavaScript to bring digital ideas to life.</p>
+              <a class="btn bg-rose-500 text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
+              
+              </div>
           </div>
+          <div class="flex-1 flex justify-center bg">
+              <img src="./image/musfiq.png" class="img-fluid w-sm" alt="">
+          </div>
+      </div>
     </section>
-    <!-- navbar end -->
+      <!--Section-1 end(intro)-->
+      <!-- section-2 start(about) -->
+  <section class="about-section mt-40 mb-50">
+    <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">About Me</h1>
 
-    <!--Section-1 start(intro)-->
-   <section class="Intro-section">
-    <div class="flex flex-col lg:flex-row bg-gray-100/70 items-center justify-center px-2 sm:px-15 pt-15">
-        <div class="flex-1 flex flex-col-reverse lg:flex-row justify-start items-start">
-            <div class="mr-10 flex flex-row lg:flex-col justify-center  items-center">
-                <div><i class="fa-brands fa-linkedin-in mt-6 text-2xl font-light text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
-                <div><i class="fa-brands fa-instagram text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
-                <div><i class="fa-solid fa-envelope text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
-                <div><i class="fa-brands fa-behance text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
-            </div>
-            <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm Web Devoloper <br> Musfiqur Rahim</h1>
-            <p class="mt-7 text-gray-800">A web developer designs and builds websites and web applications, ensuring they are visually appealing, functional, and user-friendly. They work with programming languages like HTML, CSS, and JavaScript to bring digital ideas to life.</p>
-            <a class="btn bg-rose-500 text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
+    <p class="text-center mt-5">I'm a web developer passionate about creating clean, user-friendly websites.</p>
+    <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
+
+    <div class="flex flex-col lg:flex-row justify-center items-center mx-25 mt-15">
+      <div class="flex-2 mt-10 mx-3">
+          <h2 class="text-3xl font-fa text-blue-950 font-semibold mb-5">Devoloping With a Passion While Exploring the world</h2>
+          <div class="w-20 h-1 bg-black bg-rose-500 mb-4" bg></div>
+          <p>Hi, I'm Musfiqur Rahim, a passionate and motivated web developer. I have hands-on experience with HTML, CSS, Bootstrap, GitHub, and Tailwind CSS. I enjoy building responsive and user-friendly websites that blend clean design with solid functionality. </p>
+          <a class="btn bg-rose-500 text-white px-7 py-5 mt-8">Contact Me</a>
+      </div>
+      <div class="flex-2 mt-10 mx-3">
+          <p>I'm constantly learning and exploring new tools to improve my development skills. My goal is to grow as a developer and contribute to impactful projects.</p>
+      </div>
+      <div class="flex-1 mt-10 mx-3">
+          <img src="./image/code.jpg" class="w-2xs h-auto">
+      </div>
+    </div>
+  </section>
+  <!--  section-2 (about)end -->
+    <!-- sectionn-3(service)start -->
+      <section class="bg-gray-100/70 pt-30 pb-30">
+        <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">What Services I'm Providing</h1>
+
+    <p class="text-center mt-5">I create responsive, user-friendly websites that blend sleek design with powerful functionality.</p>
+    <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
+
+    <div class="flex flex-col flex-wrap md:flex-row justify-center items-center">
+    
+        <div class="mx-2 md:mx-10">
+          <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center mt-15">
+            <i class="fa-regular fa-keyboard px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
+            <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Responsive Web design</h3>
+            <p class="text-center mt-7">I offer responsive and attractive websites using HTML, CSS, Bootstrap, and Tailwind CSS. I also convert Figma, XD, and Photoshop (PSD) designs into pixel-perfect HTML.</p>
             
-            </div>
+              <i class="fa-solid fa-arrow-right px-3 py-3 text-gray-600 border-3 border-gray-600 rounded-full mt-7"></i>
+            
+      
+          </div>
         </div>
-        <div class="flex-1 flex justify-center bg">
-            <img src="./image/musfiq.png" class="img-fluid w-sm" alt="">
-        </div>
-    </div>
-   </section>
-    <!--Section-1 end(intro)-->
-    <!-- section-2 start(about) -->
-<section class="about-section mt-40 mb-50">
-  <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">About Me</h1>
-
-  <p class="text-center mt-5">I'm a web developer passionate about creating clean, user-friendly websites.</p>
-  <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
-
-  <div class="flex flex-col lg:flex-row justify-center items-center mx-25 mt-15">
-    <div class="flex-2 mt-10 mx-3">
-        <h2 class="text-3xl font-fa text-blue-950 font-semibold mb-5">Devoloping With a Passion While Exploring the world</h2>
-        <div class="w-20 h-1 bg-black bg-rose-500 mb-4" bg></div>
-        <p>Hi, I'm Musfiqur Rahim, a passionate and motivated web developer. I have hands-on experience with HTML, CSS, Bootstrap, GitHub, and Tailwind CSS. I enjoy building responsive and user-friendly websites that blend clean design with solid functionality. </p>
-        <a class="btn bg-rose-500 text-white px-7 py-5 mt-8">Contact Me</a>
-    </div>
-    <div class="flex-2 mt-10 mx-3">
-        <p>I'm constantly learning and exploring new tools to improve my development skills. My goal is to grow as a developer and contribute to impactful projects.</p>
-    </div>
-    <div class="flex-1 mt-10 mx-3">
-        <img src="./image/code.jpg" class="w-2xs h-auto">
-    </div>
-  </div>
-</section>
-<!--  section-2 (about)end -->
-   <!-- sectionn-3(service)start -->
-    <section class="bg-gray-100/70 pt-30 pb-30">
-      <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">What Services I'm Providing</h1>
-
-  <p class="text-center mt-5">I create responsive, user-friendly websites that blend sleek design with powerful functionality.</p>
-  <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
-
-  <div class="flex flex-col flex-wrap md:flex-row justify-center items-center">
-   
-      <div class="mx-2 md:mx-10">
-        <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center mt-15">
-          <i class="fa-regular fa-keyboard px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
-          <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Responsive Web design</h3>
-          <p class="text-center mt-7">I offer responsive and attractive websites using HTML, CSS, Bootstrap, and Tailwind CSS. I also convert Figma, XD, and Photoshop (PSD) designs into pixel-perfect HTML.</p>
+        <div class="mx-2 md:mx-10">
           
-            <i class="fa-solid fa-arrow-right px-3 py-3 text-gray-600 border-3 border-gray-600 rounded-full mt-7"></i>
+          <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center  mt-15 relative ">
+            <button  class="px-4 py-2 bg-indigo-600 text-white rounded-full text-sm absolute -top-5 -right-5 ">Upcoming</button>
           
-    
+            <i class="fa-solid fa-laptop  px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
+            <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Front-End Development </h3>
+            <p class="text-center mt-7">I offer front-end development using React, HTML, CSS, Bootstrap, and Tailwind CSS, and I'm also proficient with GitHub.</p>
+            
+              <i class="fa-solid fa-arrow-right px-3 py-3 text-gray-600 border-3 border-gray-600 rounded-full mt-7"></i>
+            
+      
+          </div>
         </div>
-      </div>
       <div class="mx-2 md:mx-10">
-        
-        <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center  mt-15 relative ">
+        <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center  mt-15 relative">
           <button  class="px-4 py-2 bg-indigo-600 text-white rounded-full text-sm absolute -top-5 -right-5 ">Upcoming</button>
-        
-          <i class="fa-solid fa-laptop  px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
-          <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Front-End Development </h3>
-          <p class="text-center mt-7">I offer front-end development using React, HTML, CSS, Bootstrap, and Tailwind CSS, and I'm also proficient with GitHub.</p>
+          <i class="fa-solid fa-server px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
+          <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Back-End Development</h3>
+          <p class="text-center mt-7">I offer back-end development using the MERN stack, specializing in Node.js and Express.
+            I build secure, scalable RESTful APIs and handle database management with MongoDB.
+            </p>
           
             <i class="fa-solid fa-arrow-right px-3 py-3 text-gray-600 border-3 border-gray-600 rounded-full mt-7"></i>
           
     
         </div>
       </div>
-     <div class="mx-2 md:mx-10">
-      <div class="w1 bg-white rounded-box px-7 py-10 flex flex-col justify-center items-center  mt-15 relative">
-        <button  class="px-4 py-2 bg-indigo-600 text-white rounded-full text-sm absolute -top-5 -right-5 ">Upcoming</button>
-        <i class="fa-solid fa-server px-5 py-5 bg-rose-100 text-rose-500 text-3xl rounded-full"></i>
-        <h3 class="text-2xl font-fa text-blue-950 font-bold text-center mt-7">Back-End Development</h3>
-        <p class="text-center mt-7">I offer back-end development using the MERN stack, specializing in Node.js and Express.
-          I build secure, scalable RESTful APIs and handle database management with MongoDB.
-          </p>
-        
-          <i class="fa-solid fa-arrow-right px-3 py-3 text-gray-600 border-3 border-gray-600 rounded-full mt-7"></i>
-        
-  
-      </div>
-     </div>
-     
-  
-  </div>
-    </section>
-    <!-- section-3 (service )end -->
-  </body>
+      
+    
+    </div>
+      </section>
+      <!-- section-3 (service )end -->
+
+      <!-- section-4 (skills)start-->
+        <section class="py-15 bg-black">
+          <h1 class="text-center text-4xl font-fa text-white font-bold ">My Skills</h1>
+          <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-3" bg></div>
+          <div class="flex flex-wrap justify-center items-center pt-10">
+            <div><img src="./image/html.png"  class="skills mx-10 filter grayscale hover:grayscale-10 mt-4"></div>
+            <div><img src="./image/css.png"   class="skills mx-10 filter grayscale hover:grayscale-10 mt-4"></div>
+            <div><img src="./image/boots.png" class="skills mx-10 filter grayscale hover:grayscale-10 mt-4"></div>
+            <div><img src="./image/tail.png"  class="skills mx-10 filter grayscale hover:grayscale-10 mt-4"></div>
+            <div><img src="./image/js.png" class="skills mx-10 filter grayscale hover:grayscale-10 mt-4"></div>
+          </div>
+        </section>
+
+        <!-- section-4 (skills)end-->
+
+
+
+
+
+      
+
+
+
+
+      
+    </body>
 </html>
