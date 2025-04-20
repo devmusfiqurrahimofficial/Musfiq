@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musfiq</title>
     <!-- tailwend -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- daisy ui -->
@@ -30,7 +31,7 @@
                     tabindex="0"
                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                     <li><a href="index.html"  class="text-lg">Home</a></li>
-                  <li><a class="text-lg">About</a></li>
+                  <li><a class="text-lg" href="about.html">About</a></li>
                   <li><a class="text-lg">Portfolio</a></li>
                 
                   <li><a class="text-lg">Contact</a></li>
@@ -64,7 +65,7 @@
                   <div><i class="fa-solid fa-envelope text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
                   <div><i class="fa-brands fa-behance text-2xl mt-6 text-blue-950 hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
               </div>
-              <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm Web Devoloper <br> Musfiqur Rahim</h1>
+              <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm <span class="changes"></span><br> Musfiqur Rahim</h1>
               <p class="mt-7 text-gray-800">A web developer designs and builds websites and web applications, ensuring they are visually appealing, functional, and user-friendly. They work with programming languages like HTML, CSS, and JavaScript to bring digital ideas to life.</p>
               <a class="btn bg-rose-500 text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
               
@@ -170,7 +171,7 @@
 
 <!-- section-5 start(portfolio) -->
 
-<section class="pt-30 bg-gray-100">
+<section class="pt-30 pb-30 bg-gray-100">
   <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">My portfolio</h1>
 
     <p class="text-center mt-5">Here is a selection of my projects</p>
@@ -270,11 +271,103 @@
 
 <!-- section-5(portfolio) end -->
 
-      
 
+<!-- section-5(job-experience) start -->
 
+     <section class="pt-30 pb-30">
+      <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">Job Experience
 
+      </h1>
 
-      
+    <p class="text-center mt-5">Here is my job experiences</p>
+    <div class="w-25 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
+    <div class="mt-10 flex justify-center items-center flex-wrap ">
+      <div class="flex w-52 flex-col gap-4 mx-2 md:mx-8 mt-15">
+        <div class="flex items-center gap-4">
+          <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+          <div class="flex flex-col gap-4">
+            <div class="skeleton h-4 w-20"></div>
+            <div class="skeleton h-4 w-28"></div>
+          </div>
+        </div>
+        <div class="skeleton h-32 w-full"></div>
+      </div>
+      <div class="flex w-52 flex-col gap-4 mx-2 md:mx-8 mt-15">
+        <div class="flex items-center gap-4">
+          <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+          <div class="flex flex-col gap-4">
+            <div class="skeleton h-4 w-20"></div>
+            <div class="skeleton h-4 w-28"></div>
+          </div>
+        </div>
+        <div class="skeleton h-32 w-full"></div>
+      </div>
+      <div class="flex w-52 flex-col gap-4 mx-2 md:mx-8 mt-15">
+        <div class="flex items-center gap-4">
+          <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+          <div class="flex flex-col gap-4">
+            <div class="skeleton h-4 w-20"></div>
+            <div class="skeleton h-4 w-28"></div>
+          </div>
+        </div>
+        <div class="skeleton h-32 w-full"></div>
+      </div>
+    </div>
+     </section> 
+
+<!--section-6(job-ex) end   -->
+  
+<!-- section-7 (stay in touch) start -->
+ <section class="pt-30 pb-30 bg-gray-100">
+  <h1 class="text-center text-4xl font-fa text-blue-950 font-bold ">Stay In touch
+
+  </h1>
+
+<p class="text-center mt-5">Here is my job experiences</p>
+<div class="w-50 h-1 bg-black mx-auto bg-rose-500 mt-5" bg></div>
+<div class="flex justify-center items-center mt-10">
+  <div class="join">
+    <div>
+      <label class="input validator join-item">
+        <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <g
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            stroke-width="2.5"
+            fill="none"
+            stroke="currentColor"
+          >
+            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+          </g>
+        </svg>
+        <input type="email" placeholder="mail@site.com" required />
+      </label>
+      <div class="validator-hint hidden">Enter valid email address</div>
+    </div>
+    <button class="btn btn-neutral join-item">Join</button>
+  </div>
+</div>
+ </section>
+<!-- section-7 (stay in touch) end -->
+<footer class="footer footer-horizontal footer-center bg-black text-white rounded p-10">
+  <nav class="grid grid-flow-col gap-4">
+    <a class="link link-hover">About Me</a>
+    <a class="link link-hover">Portfolio</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Hire Me</a>
+  </nav>
+  <nav>
+    <div class="flex flex-row items-center justify-center">
+      <div><i class="fa-brands fa-linkedin-in mt-6 text-2xl font-light text-white hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+    <div><i class="fa-brands fa-instagram text-2xl mt-6 text-white hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+    <div><i class="fa-solid fa-envelope text-2xl mt-6 text-white hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+    <div><i class="fa-brands fa-behance text-2xl mt-6 text-white hover:text-rose-500 mx-5 flex items-center justify-center"></i></div>
+    </div>
+  </nav>
+  <aside>
+    <p>Copyright © 2025 - All right reserved by ACME Industries Ltd</p>
+  </aside>
+</footer>
     </body>
 </html>

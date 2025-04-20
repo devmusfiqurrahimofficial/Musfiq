@@ -57,7 +57,26 @@ body{
     opacity: 1;
     transition: 0.8s;
 }
-
+.changes::after{
+    content: '';
+    color: #ff0051;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.473);
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Front-End Devoloper"}
+    10%{content: "Back-End Devoloper"}
+    20%{content: "Mern-Stack Devoloper"}
+    30%{content: "Front-End Devoloper"}
+    40%{content: "Back-End Devoloper"}
+    50%{content: "Mern-Stack Devoloper"}
+    60%{content: "Front-End Devoloper"}
+    70%{content: "Back-End Devoloper"}
+    80%{content: "Mern-Stack Devoloper"}
+    90%{content: "Front-End Devoloper"}
+    100%{content: "Back-End Devoloper"}
+   
+    }
 
 
 
