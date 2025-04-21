@@ -21,38 +21,38 @@
     <body >
       <!-- navbar start -->
       <section class="nav-section ">
-          <div class="navbar bg-base-100  px-9 bg-gray-100/70 shadow-none">
-              <div class="navbar-start">
-                <div class="dropdown">
-                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-                  </div>
-                  <ul
-                    tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a href="index.html"  class="text-lg">Home</a></li>
-                  <li><a class="text-lg" href="about.html">About</a></li>
-                  <li><a class="text-lg">Portfolio</a></li>
-                
-                  <li><a class="text-lg">Contact</a></li>
-                  </ul>
+        <div class="navbar bg-base-100  px-9 bg-gray-100/70 shadow-none">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
-                <a class="btn btn-ghost text-2xl font-bold text-rose-500 font-fa">Musfiq</a>
-              </div>
-              <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                  <li><a href="index.html" class="text-lg">Home</a></li>
-                  <li><a  class="text-lg">About</a></li>
-                  <li><a class="text-lg">Portfolio</a></li>
-                
-                  <li><a class="text-lg">Contact</a></li>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a href="index.html"  id="differentcolor" class="text-lg">Home</a></li>
+                <li><a class="text-lg"  href="about.html" id="differentcolor">About</a></li>
+                <li><a class="text-lg" href="./portfolio.html">Portfolio</a></li>
+              
+                <li><a class="text-lg" href="contact.html">Contact</a></li>
                 </ul>
               </div>
-              <div class="navbar-end">
-                <a class="btn bg-rose-500  text-white px-7 py-5">Hire Me</a>
-              </div>
+              <a class="btn btn-ghost text-2xl font-bold text-rose-500 font-fa">Musfiq</a>
             </div>
-      </section>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html"  id="differentcolor" class="text-lg">Home</a></li>
+                <li><a  href="about.html" class="text-lg">About</a></li>
+                <li><a class="text-lg" href="portfolio.html">Portfolio</a></li>
+              
+                <li><a class="text-lg" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-rose-500 font-normal text-white px-7 py-5">Hire Me</a>
+            </div>
+          </div>
+    </section>
       <!-- navbar end -->
 
       <!--Section-1 start(intro)-->
@@ -67,7 +67,7 @@
               </div>
               <div><h1 class=" font-fa text-blue-950 font-semibold mt-0 text-5xl  " >I'm <span class="changes"></span><br> Musfiqur Rahim</h1>
               <p class="mt-7 text-gray-800">A web developer designs and builds websites and web applications, ensuring they are visually appealing, functional, and user-friendly. They work with programming languages like HTML, CSS, and JavaScript to bring digital ideas to life.</p>
-              <a class="btn bg-rose-500 text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
+              <a class="btn bg-rose-500 font-normal text-white px-7 py-5 mt-8 img-fluid" href="./image/Musfiqur Rahim.pdf">Download Resume</a>
               
               </div>
           </div>
@@ -89,7 +89,7 @@
           <h2 class="text-3xl font-fa text-blue-950 font-semibold mb-5">Devoloping With a Passion While Exploring the world</h2>
           <div class="w-20 h-1 bg-black bg-rose-500 mb-4" bg></div>
           <p>Hi, I'm Musfiqur Rahim, a passionate and motivated web developer. I have hands-on experience with HTML, CSS, Bootstrap, GitHub, and Tailwind CSS. I enjoy building responsive and user-friendly websites that blend clean design with solid functionality. </p>
-          <a class="btn bg-rose-500 text-white px-7 py-5 mt-8">Contact Me</a>
+          <a class="btn bg-rose-500 text-white px-7 font-normal py-5 mt-8" href="#">Contact Me</a>
       </div>
       <div class="flex-2 mt-10 mx-3">
           <p>I'm constantly learning and exploring new tools to improve my development skills. My goal is to grow as a developer and contribute to impactful projects.</p>
@@ -352,10 +352,10 @@
 <!-- section-7 (stay in touch) end -->
 <footer class="footer footer-horizontal footer-center bg-black text-white rounded p-10">
   <nav class="grid grid-flow-col gap-4">
-    <a class="link link-hover">About Me</a>
-    <a class="link link-hover">Portfolio</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Hire Me</a>
+    <a class="link link-hover" href="about.html">About Me</a>
+    <a class="link link-hover" href="portfolio.html">Portfolio</a>
+    <a class="link link-hover" href="contact.html">Contact</a>
+    <a class="link link-hover" href="contact.html">Hire Me</a>
   </nav>
   <nav>
     <div class="flex flex-row items-center justify-center">
